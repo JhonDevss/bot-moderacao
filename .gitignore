@@ -30,6 +30,16 @@ Thumbs.db
 logs/
 *.log
 
+# PM2 logs
+.pm2/
+
+# Documentation/Tutorial files (não necessários no servidor)
+DEPLOY_GUIDE.md
+QUICK_DEPLOY.md
+SERVER_CONFIG.md
+TROUBLESHOOTING.md
+MIGRATION_REPORT.md
+
 # Database files (opcional - remova esta linha se quiser versionar o banco)
 database/*.sqlite
 database/*.db
